@@ -13,7 +13,7 @@ if (!isset($_SESSION['username'])) {
   <ul>
     <li><a href="aggiungi_persona.php">Aggiungi Persona</a></li>
     <li><a href="persone.php">Visualizza Persone</a></li>
-    <li><a href="logout.php">Logoutcoiooo</a></li>
+    <li><a href="logout.php">Logoutcoiooodd</a></li>
   </ul>
 </body>
 </html>
