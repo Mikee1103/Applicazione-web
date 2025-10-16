@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michele Seghezzi</title>
+</head>
+<body>
+    <form action="primo.php" method="get">
+        Nome:<input type="text" name="nome">
+        <br>
+        <p>Inserire il sesso</p>
+        Uomo:<input type="radio" name="sesso" value="uomo">
+        Donna:<input type="radio" name="sesso" value="donna">
+        <br>
+        <br>
+        Data di nascita:<input type="date" name="datnasc">
+        <br>
+        <br>
+        Inserisci l'auto:<select name="auto" >
+            <option value="audi">Audi</option>
+            <option value="bmw">BMW</option>
+            <option value="DR">DR</option>
+            <option value="Dacia">Dacia</option>
+        </select>
+        <br>
+        <p>Inserire cosa piace</p>
+        Musica<input type="checkbox" name="hobby[]" value="musica">
+        Sport<input type="checkbox" name="hobby[]" value="sport">
+        <br>
+        <br>
+        <input type="submit" value="invia" placeholder="Registrati">
+        <input type="reset" value="reset" placeholder="Cancella Tutto">
+    </form>
+</body>
+</html>
